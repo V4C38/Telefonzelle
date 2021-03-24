@@ -1,0 +1,262 @@
+body
+{
+  background-color:#f2f2f2;
+  font-family: 'RobotoDraft', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+*
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h5
+{
+  margin:15px;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+h4
+{ 
+  margin-top:1em;
+  text-align: center;
+  font-size:1.4em;
+  font-weight:700;
+}
+
+p
+{
+  font-size:12px;
+}
+
+
+.cardcontainer
+{
+	margin-top:5%;
+  width:100%;
+  height:100%;
+	
+}
+
+
+
+
+.center
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Non-Essential  */
+
+.property-card
+{
+  margin: 3em;
+  height:16em;
+  width:16em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:horizontal;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
+  -o-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
+  transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
+  border-radius:25px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+
+
+
+.property-image-url
+{
+	background-image:url('https://cdn.photographylife.com/wp-content/uploads/2017/01/What-is-landscape-photography.jpg');
+}
+
+
+.property-image
+{
+  height:10em;
+  width:16em;
+  padding:0em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
+  -o-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
+  transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
+  
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+/* Bottom Card Section */
+
+
+
+.property-description
+{
+  background-color: rgba(255,255,255,1);
+  height:6em;
+  width:16em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
+  -o-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
+  transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+
+/* Property Cards Hover States */
+
+.property-card:hover
+{
+  padding:0em;
+  border-radius:5px;
+  margin: 1em;
+  height:20em;
+  width:20em;
+}
+
+
+.property-card:hover .property-image
+{
+  height:20em;
+  width:20em;
+}
+
+.property-card:hover .property-description
+{
+  height:0em;
+  width:20em;
+  padding:0px 0em;
+}
+
+
+
+
+.property-card-button
+{
+  margin: 3em;
+  height:16em;
+  width:16em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
+  -o-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
+  transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
+  border-radius:25px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+
+.property-card-button:hover
+{
+  padding:0em;
+  border-radius:5px;
+  margin: 1em;
+  height:20em;
+  width:20em;
+}
+
+
+.property-card-button:hover .property-image
+{
+  height:0em;
+  width:20em;
+}
+
+.property-card-button:hover .property-description
+{
+  height:20em;
+  width:20em;
+  padding:20px 0em;
+}
+
+
+
+.cssbutton
+{
+	width:73%;
+	height:10%;
+	
+	background-color: rgb(185,185,185);
+	
+  border: none;
+  
+  text-decoration: none;
+  font: 11px Arial;
+  
+  
+  
+  display: inline-block;
+  font-size: 16px;
+  margin-top:1em;
+  
+	border-radius: 3px;
+  -webkit-box-shadow:  10px 10px 20px #e1e1e3, -10px -10px 20px #ffffff;
+  box-shadow:  10px 10px 20px #e1e1e3, -10px -10px 20px #ffffff;
+}
+
+
+.cssbutton:hover
+{
+	background-color: rgb(215,215,215);
+	border-radius: 2px;
+	width:77%;
+}
+
+
+.cssbuttonmain
+{
+	width:90%;
+	height:15%;
+	
+	background-color: rgb(185,185,185);
+	
+  border: none;
+  
+  
+  
+  text-decoration: none;
+  text-margin: auto;
+  font: bold 11px Arial;
+  
+  
+  
+  display: inline-block;
+  font-size: 16px;
+  margin-top:1em;
+  
+	border-radius: 3px;
+  -webkit-box-shadow:  10px 10px 20px #e1e1e3, -10px -10px 20px #ffffff;
+  box-shadow:  10px 10px 20px #e1e1e3, -10px -10px 20px #ffffff;
+}
+
+
+.cssbuttonmain:hover
+{
+	background-color: rgb(215,215,215);
+	border-radius: 2px;
+	width:93%;
+}
+
+a {
+  color: black;
+  padding-top: 5px;
+}
