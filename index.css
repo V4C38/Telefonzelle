@@ -14,7 +14,7 @@ body
 h5
 {
   margin:15px;
-  font-size:1.4em;
+  font-size:1.1em;
   font-weight:700;
 }
 
@@ -311,4 +311,5 @@ a {
   color: black;
   padding-top: 5px;
   font-size: 22px;
+  text-align: center;
 }
