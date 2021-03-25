@@ -157,17 +157,18 @@ p
 {
   background-color: rgba(255,255,255,1);
   
-  height:42%;
-  width:100%;
-  position:absolute;
-  bottom:0em;
-  -webkit-transition:all 0.2s cubic-bezier(0.0, 0.045, 0.25, 1);
-  -o-transition:all 0.2s cubic-bezier(0.0, 0.045, 0.25, 1);
-  transition:all 0.2s cubic-bezier(0.0, 0.045, 0.25, 1);
+  margin-top: 88%;
+  margin-left: -30%;
+  height:100%;
+  width:160%;
+  position:absoloute;
+  -webkit-transition:all 0.55s cubic-bezier(0.0, 0.045, 0.25, 1);
+  -o-transition:all 0.55s cubic-bezier(0.0, 0.045, 0.25, 1);
+  transition:all 0.55s cubic-bezier(0.0, 0.045, 0.25, 1);
   
   background-size:cover;
   
-  padding: 0.5em 1em;
+  padding: 0.15em 1em;
   text-align:center;
 }
 
@@ -192,6 +193,10 @@ p
   overflow:hidden;
   -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
   box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+  
+  background-color: rgba(252,252,252,1);
+  
+  
 }
 
 .property-card-button:hover
@@ -214,17 +219,21 @@ p
 
 .property-card-button:hover .property-description
 {
+  margin-top: 140%;
+  margin-left: -20%;
   height:100%;
-  width:100%;
+  width:150%;
   padding:20px 0em;
 }
 
 .buttoncontainer
 {
-	height: 60%;
-	width: 84%;
-	margin-top: 2em;
-	margin-left: 8%;
+	height: 65%;
+	width: 90%;
+	margin-top: 25%;
+	margin-left: 10%;
+	
+	
   -webkit-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
   -o-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
   transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
@@ -260,6 +269,9 @@ p
 
 .cssbutton:hover
 {
+	margin-left: -2.5%;
+	width:95%;
+	background-color: rgb(205,205,205);
 }
 
 
