@@ -1,7 +1,7 @@
 # Dokumentation Projekt Telefonzelle
 
 ## Überblick
-Das Projekt "Telefonzelle" soll Pensionen für Wohnungslose eine technisches System zur Verfügung stellen, um Bewohner:innen Zugang zu kostenlosem Telefon und Internet zu ermöglichen. Die folgende Dokumentation umfasst sowohl die Umsetzung der Software (Web-Application, Online-Repository) als auch der Hardware (Raspberry Pi, Input, Output). Use Cases und Priorisierung der einzelnen Features und Umsetzungsdetails basiert auf nutzerzentriertem Vorgehen, d.h. kontextuierten Interviews vor Ort und iterativen Tests von Prototypen. Die Web-Application selbst kann über den folgenden Link aufgerufen werden: 
+Das Projekt "Telefonzelle" soll Pensionen für Wohnungslose eine technisches System zur Verfügung stellen, um Bewohner:innen Zugang zu kostenlosem Telefon und Internet zu ermöglichen. Die folgende Dokumentation umfasst sowohl die Umsetzung der Software (Web-Application, Online-Repository) als auch der Hardware (Raspberry Pi, Input, Output). Use Cases und Priorisierung der einzelnen Features und Umsetzungsdetails basiert auf nutzerzentriertem Vorgehen, d.h. kontextuierten Interviews vor Ort und iterativen Tests von Prototypen.
 
 ## Voraussetzungen
 ### Hardware
