@@ -3,8 +3,7 @@
 ## Überblick
 Das Projekt "Telefonzelle" soll Pensionen für Wohnungslose eine technisches System zur Verfügung stellen, um Bewohner:innen Zugang zu kostenlosem Telefon und Internet zu ermöglichen. Die folgende Dokumentation umfasst sowohl die Umsetzung der Software (Web-Application, Online-Repository) als auch der Hardware (Raspberry Pi, Input, Output). Use Cases und Priorisierung der einzelnen Features und Umsetzungsdetails basiert auf nutzerzentriertem Vorgehen, d.h. kontextuierten Interviews vor Ort und iterativen Tests von Prototypen.
 
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/10279394/112653937-2e94db00-8e4f-11eb-9554-1d11e02384dc.png">
-<img width="400" alt="image" src="https://user-images.githubusercontent.com/10279394/112654117-5be18900-8e4f-11eb-9d83-99ad86d633f0.png">
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/10279394/112653937-2e94db00-8e4f-11eb-9554-1d11e02384dc.png"><img width="400" alt="image" src="https://user-images.githubusercontent.com/10279394/112654117-5be18900-8e4f-11eb-9d83-99ad86d633f0.png">
 
 
 
