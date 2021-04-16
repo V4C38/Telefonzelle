@@ -141,11 +141,15 @@ p
   position:Absolute;
   top:0px;
   
-  
-  transition-delay: 0.35s;
-  
   background-size:cover;
   background-repeat:no-repeat;
+  
+  
+  -webkit-transition:all 0.55s cubic-bezier(0.0, 0.045, 0.25, 1);
+  -o-transition:all 0.55s cubic-bezier(0.0, 0.045, 0.25, 1);
+  transition:all 0.55s cubic-bezier(0.0, 0.045, 0.25, 1);
+  transition-delay: 0.25s;
+  
 }
 
 /* Bottom Card Section */
@@ -163,12 +167,15 @@ p
   width:160%;
   position:absoloute;
   
-  background-size:cover;
-  
-  transition-delay: 0.35s;
-  
   padding: 0.15em 1em;
   text-align:center;
+  background-size:cover;
+  
+  
+  -webkit-transition:all 0.55s cubic-bezier(0.0, 0.045, 0.25, 1);
+  -o-transition:all 0.55s cubic-bezier(0.0, 0.045, 0.25, 1);
+  transition:all 0.55s cubic-bezier(0.0, 0.045, 0.25, 1);
+  transition-delay: 0.25s;
   
 }
 
@@ -183,7 +190,7 @@ p
   width:160%;
   position:absoloute;
   
-  padding: 0.15em 1em;
+  padding: 0.5em 1em;
   text-align:center;
 }
 
@@ -240,7 +247,11 @@ p
   margin-left: 0%;
   height:100%;
   width:100%;
-  padding:0px 0em -45px 0px;
+}
+
+.property-card-button:hover .property-description-container
+{
+  padding-top: 2.3em;
 }
 
 .buttoncontainer
