@@ -142,9 +142,7 @@ p
   top:0px;
   
   
-  -webkit-transition:all 1.0s linear (0.0, 0.045, 0.25, 1);
-  -o-transition:all 1.0s linear (0.0, 0.045, 0.25, 1);
-  transition:all 1.0s linear (0.0, 0.045, 0.25, 1);
+  transition-delay: 0.35s;
   
   background-size:cover;
   background-repeat:no-repeat;
@@ -167,9 +165,7 @@ p
   
   background-size:cover;
   
-  -webkit-transition:all 1.0s linear (0.0, 0.045, 0.25, 1);
-  -o-transition:all 1.0s linear (0.0, 0.045, 0.25, 1);
-  transition:all 1.0s linear (0.0, 0.045, 0.25, 1);
+  transition-delay: 0.35s;
   
   padding: 0.15em 1em;
   text-align:center;
@@ -221,7 +217,7 @@ p
 
 .property-card-button:hover
 {
-  padding:0em;
+  
   border-radius:5px;
   margin: 1em;
   margin-top: -5em;
