@@ -143,9 +143,6 @@ p
   padding:0em 3em;
   position:Absolute;
   top:0px;
-  -webkit-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
-  -o-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
-  transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
   
   background-size:cover;
   background-repeat:no-repeat;
@@ -165,9 +162,6 @@ p
   height:101%;
   width:160%;
   position:absoloute;
-  -webkit-transition:all 0.55s cubic-bezier(0.0, 0.045, 0.25, 1);
-  -o-transition:all 0.55s cubic-bezier(0.0, 0.045, 0.25, 1);
-  transition:all 0.55s cubic-bezier(0.0, 0.045, 0.25, 1);
   
   background-size:cover;
   
@@ -213,9 +207,6 @@ p
   -webkit-box-direction:normal;
   -ms-flex-direction:column;
   flex-direction:column;
-  -webkit-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
-  -o-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
-  transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
   
   -webkit-box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
   box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
@@ -259,10 +250,6 @@ p
 	margin-top: 0%;
 	margin-left: 5%;
 	
-	
-  -webkit-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
-  -o-transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
-  transition:all 0.4s cubic-bezier(0.0, 0.045, 0.25, 1);
 	
 }
 
